@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Droit de l'entreprise - Commerçant & Actes de commerce - Bilingue</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+        body {
+            background-color: #f8fafc;
+            color: #2d3748;
+            line-height: 1.7;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.95;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        .course-info {
+            background: rgba(255,255,255,0.1);
+            padding: 12px;
+            border-radius: 6px;
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+        .section {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            border-left: 5px solid #3498db;
+        }
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section h2 i {
+            font-size: 1.3rem;
+        }
+        .qa-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .qa-item:last-child {
+            border-bottom: none;
+        }
+        .question {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .question:before {
+            content: "▶";
+            color: #e74c3c;
+            font-size: 1rem;
+        }
+        .answer {
+            color: #4a5568;
+            margin-bottom: 5px;
+        }
+        .translation {
+            color: #718096;
+            font-size: 0.95rem;
+            padding: 8px 0 8px 12px;
+            border-right: 3px solid #a0aec0;
+            background: #f8f9fa;
+            margin: 8px 0 15px 0;
+            border-radius: 0 5px 5px 0;
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            text-align: right;
+            line-height: 1.6;
+        }
+        .legal-box {
+            background: #e8f4fc;
+            border: 1px solid #a3d5ff;
+            padding: 12px;
+            border-radius: 6px;
+            margin: 12px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+        .legal-box .translation {
+            background: rgba(255,255,255,0.7);
+            margin-top: 8px;
+        }
+        .example {
+            background: #f0f9ff;
+            border-left: 3px solid #4fc3f7;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 0 5px 5px 0;
+            font-size: 0.95rem;
+        }
+        .example .translation {
+            margin-top: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: white;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        th {
+            background: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+            font-size: 0.95rem;
+        }
+        td .translation {
+            margin-top: 5px;
+            padding: 5px 0 5px 8px;
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #718096;
+            font-size: 0.9rem;
+            border-top: 1px solid #e2e8f0;
+            background: white;
+            border-radius: 8px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .section {
+                padding: 20px;
+            }
+            table {
+                font-size: 0.9rem;
+            }
+            th, td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Droit de l'entreprise - Axe I</h1>
+        <p class="subtitle">Le commerçant et les actes de commerce - Document bilingue</p>
+        <div class="course-info">
+            <p><strong>Enseignante :</strong> Pr. AANAIBER Meryem</p>
+            <p><strong>Année :</strong> 2025-2026 | <strong>Semestre :</strong> 3 Sciences Économiques</p>
+        </div>
+    </header>
+
+    <div class="section">
+        <h2><i>📚</i> Introduction au droit de l'entreprise</h2>
+        <div class="qa-item">
+            <div class="question">Qu'est-ce que le droit de l'entreprise ?</div>
+            <div class="answer">Le droit de l'entreprise est une branche spécialisée du droit privé qui réglemente l'ensemble des aspects juridiques de la vie économique des entreprises.</div>
+            <div class="translation">قانون المؤسسة هو فرع متخصص من القانون الخاص الذي ينظم جميع الجوانب القانونية للحياة الاقتصادية للمؤسسات.</div>
+            <div class="answer">Son champ d'application couvre la création, l'organisation, le fonctionnement, les relations externes, la transformation et la disparition des entreprises.</div>
+            <div class="translation">مجال تطبيقه يشمل إنشاء المؤسسات وتنظيمها وتسييرها وعلاقاتها الخارجية وتحولها وزوالها.</div>
+            <div class="answer">C'est un droit dynamique, pluridisciplinaire et économique qui s'adapte aux mutations du monde des affaires.</div>
+            <div class="translation">إنه قانون ديناميكي متعدد التخصصات واقتصادي يتكيف مع تحولات عالم الأعمال.</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><i>👨‍💼</i> Le commerçant : Définition et statut</h2>
+        <div class="qa-item">
+            <div class="question">Comment le Code de commerce marocain définit-il le commerçant ?</div>
+            <div class="answer">L'article 6 du Code de commerce marocain stipule : "Est commerçant toute personne physique ou morale qui exerce des actes de commerce et en fait sa profession habituelle."</div>
+            <div class="translation">ينص الفصل 6 من مدونة التجارة المغربية: "تاجر هو كل شخص ذاتي أو معنوي يمارس أعمال تجارية ويتخذها مهنة معتادة".</div>
+            
+            <div class="legal-box">
+                <strong>Analyse des éléments de la définition :</strong><br>
+                1. "Personne physique ou morale" : Le commerçant peut être un individu ou une société<br>
+                2. "Exerce des actes de commerce" : Critère objectif basé sur la nature des activités<br>
+                3. "En fait sa profession habituelle" : Critère subjectif impliquant la régularité
+                <div class="translation">
+                    <strong>تحليل عناصر التعريف:</strong><br>
+                    1. "شخص ذاتي أو معنوي": يمكن للتاجر أن يكون فرداً أو شركة<br>
+                    2. "يمارس أعمال تجارية": معيار موضوعي يستند إلى طبيعة الأنشطة<br>
+                    3. "يتخذها مهنة معتادة": معيار شخصي يستلزم الانتظام
+                </div>
+            </div>
+        </div>
+
+        <div class="qa-item">
+            <div class="question">Quels sont les trois critères cumulatifs pour être qualifié de commerçant ?</div>
+            <div class="answer">1. Accomplissement d'actes de commerce : Réalisation d'opérations figurant dans la liste légale des actes commerciaux (Art. 6 à 10 du Code de commerce).</div>
+            <div class="translation">1. القيام بأعمال تجارية: تنفيذ عمليات مدرجة في القائمة القانونية للأعمال التجارية (الفصول 6 إلى 10 من مدونة التجارة).</div>
+            
+            <div class="answer">2. Habitude professionnelle : Répétition des actes avec une certaine régularité, organisation et permanence, formant une véritable profession.</div>
+            <div class="translation">2. العادة المهنية: تكرار الأعمال بانتظام معتنظم وتنظيم وديمومة، مما يشكل مهنة حقيقية.</div>
+            
+            <div class="answer">3. Exercice indépendant : Agir en son nom propre, pour son compte, en supportant les risques et bénéfices de l'activité.</div>
+            <div class="translation">3. الممارسة المستقلة: التصرف باسمه الخاص ولحسابه الخاص، مع تحمل مخاطر وأرباح النشاط.</div>
+            
+            <div class="example">
+                <strong>Exemple de distinction :</strong><br>
+                • <strong>Commerçant</strong> : Ali achète chaque semaine des téléphones en gros et les revend dans sa boutique avec une marge bénéficiaire.<br>
+                • <strong>Non-commerçant</strong> : Karim achète un lot de téléphones par hasard et les revend occasionnellement à ses amis.
+                <div class="translation">
+                    <strong>مثال للتمييز:</strong><br>
+                    • <strong>تاجر</strong>: علي يشتري هواتف بالجملة كل أسبوع ويبيعها في متجره بهامش ربح.<br>
+                    • <strong>غير تاجر</strong>: كريم يشتري دفعة هواتف بالصدفة ويبيعها عرضياً لأصدقائه.
+                </div>
+            </div>
+        </div>
+
+        <div class="qa-item">
+            <div class="question">Quelles sont les différences entre commerçant personne physique et personne morale ?</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Personne physique</th>
+                        <th>Personne morale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Être humain individuel<br>
+                            <div class="translation">فرد طبيعي</div>
+                        </td>
+                        <td>
+                            Entité juridique créée par la loi<br>
+                            <div class="translation">كيان قانوني منشأ بموجب القانون</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Responsabilité ILLIMITÉE sur tout le patrimoine<br>
+                            <div class="translation">مسؤولية غير محدودة على جميع الممتلكات</div>
+                        </td>
+                        <td>
+                            Responsabilité LIMITÉE aux apports<br>
+                            <div class="translation">مسؤولية محدودة بالحصص</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Pas de distinction patrimoine personnel/professionnel<br>
+                            <div class="translation">لا تمييز بين الممتلكات الشخصية والمهنية</div>
+                        </td>
+                        <td>
+                            Patrimoine social distinct<br>
+                            <div class="translation">ذمة مالية مستقلة للشركة</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><i>🚪</i> Accès à la profession commerciale</h2>
+        <div class="qa-item">
+            <div class="question">Quel est le principe fondamental régissant l'accès au commerce ?</div>
+            <div class="answer">Le principe de la liberté du commerce et de l'industrie est consacré par l'article 35 de la Constitution marocaine de 2011.</div>
+            <div class="translation">مبدأ حرية التجارة والصناعة كرسه الفصل 35 من الدستور المغربي لسنة 2011.</div>
+            
+            <div class="answer">Ce principe comprend la liberté de s'établir commerçant, de choisir le lieu d'implantation, de déterminer la nature de l'activité, d'organiser librement sa gestion et de cumuler plusieurs activités (sauf incompatibilités).</div>
+            <div class="translation">يشمل هذا المبدأ حرية إنشاء مؤسسة تجارية، واختيار مكان الممارسة، وتحديد طبيعة النشاط، وتنظيم التسيير بحرية، وجمع عدة أنشطة (ما عدا حالات عدم الجمع).</div>
+        </div>
+
+        <div class="qa-item">
+            <div class="question">Quelles sont les principales restrictions à la liberté d'entreprendre ?</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type de restriction</th>
+                        <th>Exemples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong>Incapacités</strong><br>
+                            Protection des personnes vulnérables
+                            <div class="translation">
+                                <strong>عدم الأهلية</strong><br>
+                                حماية الأشخاص الضعفاء
+                            </div>
+                        </td>
+                        <td>
+                            Mineurs non émancipés, majeurs sous tutelle<br>
+                            <div class="translation">قاصرون غير متمتعين بالأهلية، كبار السن تحت الوصاية</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Incompatibilités</strong><br>
+                            Indépendance et neutralité des fonctions
+                            <div class="translation">
+                                <strong>عدم الجمع</strong><br>
+                                استقلالية وحيادية الوظائف
+                            </div>
+                        </td>
+                        <td>
+                            Fonctionnaires, juges, militaires, professions libérales<br>
+                            <div class="translation">موظفون عموميون، قضاة، عسكريون، مهن حرة</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Interdictions professionnelles</strong><br>
+                            Protection de l'ordre public économique
+                            <div class="translation">
+                                <strong>الممنوعون مهنياً</strong><br>
+                                حماية النظام العام الاقتصادي
+                            </div>
+                        </td>
+                        <td>
+                            Condamnés pour banqueroute, escroquerie, détournement<br>
+                            <div class="translation">المحكوم عليهم بالإفلاس التدليسي، النصب، اختلاس الأموال</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Activités réglementées</strong><br>
+                            Protection de l'intérêt général
+                            <div class="translation">
+                                <strong>أنشطة منظمة</strong><br>
+                                حماية المصلحة العامة
+                            </div>
+                        </td>
+                        <td>
+                            Pharmacie (agrément), transports (licence), banque (agrément BAM)<br>
+                            <div class="translation">الصيدلة (ترخيص)، النقل (رخصة)، البنوك (ترخيص بنك المغرب)</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><i>⚖️</i> Obligations légales du commerçant</h2>
+        <div class="qa-item">
+            <div class="question">Quelles sont les obligations principales imposées par le droit commercial marocain ?</div>
+            
+            <div class="answer"><strong>1. Immatriculation au registre du commerce</strong> (Art. 37 à 47 du Code de commerce)</div>
+            <div class="translation"><strong>1. القيد في السجل التجاري</strong> (الفصول 37 إلى 47 من مدونة التجارة)</div>
+            
+            <div class="answer">• Délai : 3 mois à compter du début de l'activité (Art. 38)</div>
+            <div class="translation">• أجل: 3 أشهر من بداية النشاط (الفصل 38)</div>
+            
+            <div class="answer">• Procédure électronique via les CRI (Centres Régionaux d'Investissement) depuis la loi 88-17 de 2019</div>
+            <div class="translation">• مسطرة إلكترونية عبر المراكز الجهوية للاستثمار منذ القانون 88-17 لسنة 2019</div>
+            
+            <div class="answer">• Sanctions : Amende 1 000-5 000 DH (omission) ; 50 000 DH et/ou prison (fraude) (Art. 62-64)</div>
+            <div class="translation">• عقوبات: غرامة 1000-5000 درهم (الإغفال)؛ 50000 درهم و/أو سجن (الاحتيال) (الفصول 62-64)</div>
+            
+            <div class="answer"><strong>2. Tenue d'une comptabilité régulière</strong> (Loi 9-88)</div>
+            <div class="translation"><strong>2. مسك محاسبة منتظمة</strong> (القانون 9-88)</div>
+            
+            <div class="answer">• Livres obligatoires : Journal, Grand-livre, Inventaire (Art. 2 loi 9-88)</div>
+            <div class="translation">• دفاتر إجبارية: اليومية، الأستاذ، الجرد (الفصل 2 من القانون 9-88)</div>
+            
+            <div class="answer">• Principes comptables : Régularité, fidélité, prudence, permanence des méthodes</div>
+            <div class="translation">• مبادئ محاسبية: الانتظام، الصدق، الحيطة، ثبات الطرق</div>
+            
+            <div class="answer">• Conservation : 10 ans (Art. 22 loi 9-88)</div>
+            <div class="translation">• الحفظ: 10 سنوات (الفصل 22 من القانون 9-88)</div>
+            
+            <div class="answer">• Sanctions : Déchéance commerciale, amendes 10 000-100 000 DH, prison 1-5 ans</div>
+            <div class="translation">• عقوبات: سقوط الصفة التجارية، غرامات 10000-100000 درهم، سجن 1-5 سنوات</div>
+            
+            <div class="answer"><strong>3. Autres obligations spécifiques</strong></div>
+            <div class="translation"><strong>3. واجبات أخرى محددة</strong></div>
+            
+            <div class="answer">• Compte bancaire obligatoire (Art. 18 Code de commerce) pour tout commerçant</div>
+            <div class="translation">• حساب بنكي إجباري (الفصل 18 من مدونة التجارة) لكل تاجر</div>
+            
+            <div class="answer">• Facturation obligatoire (Art. 51 loi sur les prix) pour toute vente professionnelle</div>
+            <div class="translation">• الفوترة إجبارية (الفصل 51 من قانون الأسعار) لكل بيع مهني</div>
+            
+            <div class="answer">• Publicité légale des actes importants (statuts, modifications, nantissements)</div>
+            <div class="translation">• النشر القانوني للتصرفات المهمة (النظم الأساسية، التعديلات، الرهون)</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><i>📋</i> Les actes de commerce : Classification et régime</h2>
+        <div class="qa-item">
+            <div class="question">Comment sont classés les actes de commerce selon le droit marocain ?</div>
+            
+            <div class="answer"><strong>A. Actes de commerce par nature</strong> (Art. 6-8 Code de commerce)</div>
+            <div class="translation"><strong>أ. الأعمال التجارية بطبيعتها</strong> (الفصول 6-8 من مدونة التجارة)</div>
+            
+            <div class="answer">• Achat pour revente de biens meubles • Opérations de banque, change, assurance</div>
+            <div class="translation">• الشراء لأجل إعادة البيع للمنقولات • عمليات البنوك، الصرف، التأمين</div>
+            
+            <div class="answer">• Entreprises de manufacture, d'édition • Activités industrielles ou de transport</div>
+            <div class="translation">• مؤسسات التصنيع، النشر • أنشطة صناعية أو نقل</div>
+            
+            <div class="answer"><strong>B. Actes de commerce par la forme</strong> (Art. 9 Code de commerce)</div>
+            <div class="translation"><strong>ب. الأعمال التجارية بشكلها</strong> (الفصل 9 من مدونة التجارة)</div>
+            
+            <div class="answer">• Lettre de change (toujours commerciale) • Billet à ordre (si lié à opération commerciale)</div>
+            <div class="translation">• الكمبيالة (تجارية دائماً) • السند لأمر (إذا كان مرتبطاً بعملية تجارية)</div>
+            
+            <div class="answer">• Sociétés commerciales par leur forme (SA, SARL, SNC, etc.)</div>
+            <div class="translation">• الشركات التجارية بشكلها (شركة مساهمة، ذات مسؤولية محدودة، التضامن، إلخ)</div>
+            
+            <div class="answer"><strong>C. Actes de commerce par accessoire</strong> (Art. 10 Code de commerce)</div>
+            <div class="translation"><strong>ج. الأعمال التجارية بالتتبع</strong> (الفصل 10 من مدونة التجارة)</div>
+            
+            <div class="answer">• Actes civils qui deviennent commerciaux parce qu'accomplis par un commerçant dans le cadre de son activité professionnelle</div>
+            <div class="translation">• أعمال مدنية تصبح تجارية لأن تاجراً قام بها في إطار نشاطه المهني</div>
+            
+            <div class="answer">• Présomption simple de commercialité (preuve contraire possible)</div>
+            <div class="translation">• قرينة بسيطة على الصفة التجارية (الدليل العكسي ممكن)</div>
+            
+            <div class="answer"><strong>D. Actes mixtes</strong> (Doctrine et jurisprudence)</div>
+            <div class="translation"><strong>د. الأعمال المختلطة</strong> (الفقه والقضاء)</div>
+            
+            <div class="answer">• Actes commerciaux pour une partie (le commerçant) et civils pour l'autre (le particulier)</div>
+            <div class="translation">• أعمال تجارية بالنسبة لطرف (التاجر) ومدنية بالنسبة للطرف الآخر (الخاص)</div>
+        </div>
+
+        <div class="qa-item">
+            <div class="question">Quel est le régime juridique spécifique des actes de commerce ?</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Droit commercial</th>
+                        <th>Droit civil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong>Preuve</strong>
+                            <div class="translation"><strong>الإثبات</strong></div>
+                        </td>
+                        <td>
+                            Liberté de la preuve (Art. 334 Code de commerce)<br>
+                            <div class="translation">حرية الإثبات (الفصل 334 مدونة التجارة)</div>
+                        </td>
+                        <td>
+                            Preuve écrite souvent exigée<br>
+                            <div class="translation">الإثبات الكتابي مطلوب غالباً</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Solidarité</strong>
+                            <div class="translation"><strong>التضامن</strong></div>
+                        </td>
+                        <td>
+                            Présumée entre débiteurs (Art. 335 Code de commerce)<br>
+                            <div class="translation">مفترضة بين المدينين (الفصل 335 مدونة التجارة)</div>
+                        </td>
+                        <td>
+                            Nécessite clause expresse (Art. 164 DOC)<br>
+                            <div class="translation">تتطلب شرطاً صريحاً (الفصل 164 قانون الالتزامات والعقود)</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Prescription</strong>
+                            <div class="translation"><strong>التقادم</strong></div>
+                        </td>
+                        <td>
+                            5 ans (Art. 388 DOC)<br>
+                            <div class="translation">5 سنوات (الفصل 388 قانون الالتزامات والعقود)</div>
+                        </td>
+                        <td>
+                            15 ans (Art. 387 DOC)<br>
+                            <div class="translation">15 سنة (الفصل 387 قانون الالتزامات والعقود)</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Compétence</strong>
+                            <div class="translation"><strong>الاختصاص</strong></div>
+                        </td>
+                        <td>
+                            Tribunal de commerce (Loi 53-95)<br>
+                            <div class="translation">المحكمة التجارية (القانون 53-95)</div>
+                        </td>
+                        <td>
+                            Tribunal de première instance<br>
+                            <div class="translation">محكمة الاستئناف/المحكمة الابتدائية</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><i>🚫</i> Activités exclues du droit commercial</h2>
+        <div class="qa-item">
+            <div class="question">Quelles activités échappent au régime du droit commercial ?</div>
+            
+            <div class="answer"><strong>1. Activités agricoles</strong> : Production naturelle, non spéculative (sauf transformation industrielle ou achat pour revente)</div>
+            <div class="translation"><strong>1. الأنشطة الزراعية</strong>: إنتاج طبيعي، غير مضاربي (ما عدا التحويل الصناعي أو الشراء لأجل إعادة البيع)</div>
+            
+            <div class="answer">• Exemple civil : Cultiver son champ et vendre sa récolte</div>
+            <div class="translation">• مثال مدني: زراعة حقله وبيع محصوله</div>
+            
+            <div class="answer">• Exemple commercial : Acheter des céréales pour les revendre après transformation</div>
+            <div class="translation">• مثال تجاري: شراء حبوب لإعادة بيعها بعد التحويل</div>
+            
+            <div class="answer"><strong>2. Professions libérales</strong> : Prestation intellectuelle, déontologie (médecins, avocats, architectes, experts-comptables)</div>
+            <div class="translation"><strong>2. المهن الحرة</strong>: خدمات فكرية، أخلاقيات مهنية (أطباء، محامون، مهندسون معماريون، خبراء محاسبون)</div>
+            
+            <div class="answer">• Rémunération par honoraires, non par bénéfices commerciaux</div>
+            <div class="translation">• المكافأة عبر الأتعاب، وليس عبر الأرباح التجارية</div>
+            
+            <div class="answer"><strong>3. Personnes morales de droit public</strong> : Mission d'intérêt général (État, collectivités, établissements publics)</div>
+            <div class="translation"><strong>3. الأشخاص المعنوية للقانون العام</strong>: مهمة المصلحة العامة (الدولة، الجماعات، المؤسسات العمومية)</div>
+            
+            <div class="answer">• Exception : Filiales à caractère industriel ou commercial</div>
+            <div class="translation">• استثناء: الفروع ذات الطابع الصناعي أو التجاري</div>
+            
+            <div class="answer"><strong>4. Activités intellectuelles et artistiques</strong> : Création littéraire ou artistique (écrivains, peintres, compositeurs)</div>
+            <div class="translation"><strong>4. الأنشطة الفكرية والفنية</strong>: الإبداع الأدبي أو الفني (كتاب، رسامون، ملحنون)</div>
+            
+            <div class="answer">• Vente d'œuvres ≠ activité commerciale spéculative</div>
+            <div class="translation">• بيع الأعمال ≠ نشاط تجاري مضاربي</div>
+            
+            <div class="answer"><strong>5. Associations</strong> : But non lucratif (sauf activité économique lucrative accessoire)</div>
+            <div class="translation"><strong>5. الجمعيات</strong>: هدف غير ربحي (ما عدا النشاط الاقتصادي المربح التبعي)</div>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>Document bilingue français-arabe - Droit de l'entreprise - Axe I</strong></p>
+        <p>Faculté des Sciences Économiques - Semestre 3 - Année universitaire 2025-2026</p>
+        <p style="margin-top: 10px; font-size: 0.85em; color: #a0aec0;">
+            كل جملة فرنسية متبوعة بترجمتها العربية أسفلها مباشرة<br>
+            All French sentences followed immediately by their Arabic translation below
+        </p>
+    </footer>
+</body>
+</html>
